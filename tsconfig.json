@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "strict": true,
-    "target": "es2020"
+    "target": "es2020",
+    "resolveJsonModule": true
   },
   "include": ["src/**/*"]
 }
