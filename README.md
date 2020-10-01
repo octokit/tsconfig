@@ -8,32 +8,13 @@
 
 ## Usage
 
-<table>
-<tbody valign=top align=left>
-<tr><th>
+Install package with `npm` or `yarn`
 
-Browsers
-
-</th><td width=100%>
-
-`@octokit/tsconfig` is not meant for browser usage.
-
-</td></tr>
-<tr><th>
-
-Node
-
-</th><td>
-
-Install with `npm install @octokit/core @octokit/tsconfig`
-
-```js
-const { config } = require("@octokit/tsconfig");
+```
+npm install --save-dev @octokit/tsconfig
 ```
 
-</td></tr>
-</tbody>
-</table>
+Then create `tsconfig.json` file with the following content
 
 ```js
 {
