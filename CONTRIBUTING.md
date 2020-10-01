@@ -1,4 +1,4 @@
-      # How to contribute
+# How to contribute
 
 Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
 By participating in this project you agree to abide by its terms.
@@ -59,7 +59,5 @@ The following commit message conventions determine which version is released:
 Only one version number is bumped at a time, the highest version change trumps the others.
 Besides publishing a new version to npm, semantic-release also creates a git tag and release
 on GitHub, generates changelogs from the commit messages and puts them into the release notes.
-
-Before the publish it runs the `npm run build` script which creates a `pkg/` folder with distributions for browsers, node and Typescript definitions. The contents of the `pkg/` folder are published to the npm registry.
 
 If the pull request looks good but does not follow the commit conventions, use the <kbd>Squash & merge</kbd> button.
