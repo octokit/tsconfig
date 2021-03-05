@@ -12,7 +12,7 @@
   "files": [
     "tsconfig.json"
   ],
-  "repository": "https://github.com/octokit/tsconfig",
+  "repository": "github:octokit/tsconfig",
   "author": "Gregor Martynus (https://dev.to/gr2m)",
   "license": "MIT",
   "release": {
