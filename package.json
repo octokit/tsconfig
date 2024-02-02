@@ -6,7 +6,7 @@
   "version": "0.0.0-development",
   "description": "TypeScript configuration for Octokit packages",
   "scripts": {
-    "test": "node -p 'require(\".\")'"
+    "test": "node --test ./test/*.test.js"
   },
   "main": "tsconfig.json",
   "files": [
@@ -19,5 +19,9 @@
     "branches": [
       "main"
     ]
+  },
+  "devDependencies": {
+    "ajv": "^8.12.0",
+    "ajv-draft-04": "^1.0.0"
   }
 }
