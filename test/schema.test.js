@@ -1,9 +1,7 @@
-'use strict'
-
-const assert = require('node:assert')
-const fs = require('node:fs')
-const { test } = require('node:test')
-const Ajv = require("ajv-draft-04")
+import assert from 'node:assert'
+import fs from 'node:fs'
+import { test } from 'node:test'
+import Ajv from "ajv-draft-04"
 
 const customKeywords = [
   "allowTrailingCommas",

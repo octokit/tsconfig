@@ -8,6 +8,7 @@
   "scripts": {
     "test": "node --test ./test/*.test.js"
   },
+  "type": "module",
   "main": "tsconfig.json",
   "files": [
     "tsconfig.json"
