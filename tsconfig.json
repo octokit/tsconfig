@@ -1,11 +1,15 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Octokit TSConfig",
+
   "compilerOptions": {
     "module": "esnext",
     "moduleResolution": "node",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "strict": true,
-    "target": "es2020",
+    "target": "es2022",
+    "lib": ["es2022"],
     "resolveJsonModule": true,
     "verbatimModuleSyntax": true
   }

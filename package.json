@@ -19,5 +19,8 @@
     "branches": [
       "main"
     ]
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
