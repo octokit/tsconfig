@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "module": "esnext",
-    "moduleResolution": "node",
+    "lib": ["es2023"],
+    "module": "node16",
+    "moduleResolution": "node16",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "strict": true,
-    "target": "es2020",
+    "target": "es2022",
     "resolveJsonModule": true,
     "verbatimModuleSyntax": true
   }
