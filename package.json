@@ -1,7 +1,8 @@
 {
   "name": "@octokit/tsconfig",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "version": "0.0.0-development",
   "description": "TypeScript configuration for Octokit packages",
