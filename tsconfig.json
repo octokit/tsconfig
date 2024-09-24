@@ -8,6 +8,7 @@
     "strict": true,
     "target": "es2022",
     "resolveJsonModule": true,
-    "verbatimModuleSyntax": true
+    "verbatimModuleSyntax": true,
+    "exactOptionalPropertyTypes": true
   }
 }
